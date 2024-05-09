@@ -37,6 +37,7 @@ const App = () => {
     : `Next player: ${xIsNext ? 'X' : 'O'}`;
 
   return (
+    <>
     <div className="game">
       <div className="status">{status}</div>
       <div className="board">
@@ -57,11 +58,12 @@ const App = () => {
         </div>
       </div>
       {(winner || status === 'Draw!') && (
-        <button className="play-again" onClick={handleReset}>
+       <button className="play-again" onClick={handleReset}>
           Play Again
-        </button>
+        <i></i></button>
       )}
     </div>
+    </>
   );
 };
 
