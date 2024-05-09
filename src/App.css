@@ -7,7 +7,8 @@ body {
   font-family: Arial, sans-serif;
   /* background: url(https://mdn.dev/archives/media/attachments/2012/07/09/3466/a3398e03c058d99fb2b7837167cdbc26/no-dimensions-1x1-ratio.svg); */
   background-image: linear-gradient(to bottom right, rgba(12, 1, 71, 0.5), rgba(54, 4, 4, 0.5)),   url(../src/background.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   
 }
 
